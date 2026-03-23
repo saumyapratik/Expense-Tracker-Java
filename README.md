@@ -1,36 +1,36 @@
-# 💸 Student Expense Tracker (Java)
+# Student Expense Tracker (Java)
 
-## 📌 Overview
+## Overview
 
-The **Student Expense Tracker** is a simple Java-based console application that helps users manage and track their daily expenses. It allows users to add, view, delete, and analyze expenses efficiently.
-
----
-
-## 🎯 Problem Statement
-
-Many students struggle to keep track of their daily spending, which can lead to poor financial management. This project aims to provide a simple solution to monitor expenses and improve budgeting habits.
+This is a simple Java console-based project that I built to track daily expenses. It helps users add, view, and manage their spending in an easy way.
 
 ---
 
-## 🚀 Features
+## Problem Statement
 
-* ➕ Add Expense (amount, category, date)
-* 📋 View All Expenses
-* 💰 Show Total Spending
-* 📊 Category-wise Expense Report
-* ❌ Delete Expense
+As a student, I noticed that it’s easy to lose track of daily expenses. This project is designed to solve that problem by providing a basic system to record and monitor spending.
 
 ---
 
-## 🛠️ Technologies Used
+## Features
 
-* Java (Core Java, OOP concepts)
+* Add expense (amount, category, date)
+* View all expenses
+* Show total spending
+* Category-wise expense report
+* Delete expense
+
+---
+
+## Technologies Used
+
+* Java (Core concepts, OOP)
 * File Handling (BufferedReader, FileWriter)
 * Collections (ArrayList, HashMap)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ExpenseTracker/
@@ -42,10 +42,10 @@ ExpenseTracker/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
-1. Open terminal in project folder
-2. Compile all files:
+1. Open terminal in the project folder
+2. Compile the files:
 
 ```
 javac *.java
@@ -59,54 +59,31 @@ java Main
 
 ---
 
-## 💡 Sample Menu
+## Concepts Used
 
-```
-==== Expense Tracker ====
-1. Add Expense
-2. View Expenses
-3. Show Total
-4. Category-wise Report
-5. Delete Expense
-6. Exit
-```
-
----
-
-## 📸 Sample Data (expenses.txt)
-
-```
-200,Food,2026-03-23
-100,Travel,2026-03-23
-```
-
----
-
-## 🧠 Concepts Used
-
-* Object-Oriented Programming (Classes & Objects)
-* File Handling (Persistent Data Storage)
+* Object-Oriented Programming
+* File Handling
 * Collections Framework
-* Menu-driven Program Design
+* Menu-driven program
 
 ---
 
-## ⚡ Future Enhancements
+## Future Improvements
 
-* Search expenses by category
-* Monthly expense report
-* GUI-based interface (Java Swing/JavaFX)
+* Add search functionality
+* Monthly expense tracking
+* GUI version using Java Swing
+* Convert into a web-based application
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Saumya Pratik**
+Saumya Pratik
 B.Tech CSE (AIML)
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
-This project demonstrates how Java can be used to solve real-world problems using basic programming concepts like OOP, file handling, and collections. It provides a practical way for students to manage their expenses effectively.
-# Expense-Tracker-Java
+This project helped me understand how Java can be used to solve real-world problems. It also improved my understanding of OOP, file handling, and working with collections.
