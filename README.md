@@ -1,89 +1,42 @@
-# Student Expense Tracker (Java)
+Expense Tracker – Java Console App
+What is this?
+A simple Java project I made to keep track of my daily expenses. Nothing fancy, just a console app that lets me add, view, and delete expenses and see where my money is going.
+Why I made this
+Honestly, I had no idea where my pocket money was disappearing every month. Food, transport, random stuff — it adds up. So I thought why not build something to track it instead of using a notes app.
+What it can do
 
-## Overview
+Add an expense with amount, category, and date
+View all recorded expenses
+Check total spending
+See spending broken down by category
+Delete an expense if entered wrong
 
-This is a simple Java console-based project that I built to track daily expenses. It helps users add, view, and manage their spending in an easy way.
-
----
-
-## Problem Statement
-
-As a student, I noticed that it’s easy to lose track of daily expenses. This project is designed to solve that problem by providing a basic system to record and monitor spending.
-
----
-
-## Features
-
-* Add expense (amount, category, date)
-* View all expenses
-* Show total spending
-* Category-wise expense report
-* Delete expense
-
----
-
-## Technologies Used
-
-* Java (Core concepts, OOP)
-* File Handling (BufferedReader, FileWriter)
-* Collections (ArrayList, HashMap)
-
----
-
-## Project Structure
-
-```
+Project Structure
 ExpenseTracker/
- ├── Expense.java
- ├── ExpenseManager.java
- ├── Main.java
- ├── expenses.txt
-```
-
----
-
-## How to Run
-
-1. Open terminal in the project folder
-2. Compile the files:
-
-```
+├── Expense.java
+├── ExpenseManager.java
+├── Main.java
+└── expenses.txt
+How to Run
+Open terminal in the project folder and run:
 javac *.java
-```
-
-3. Run the program:
-
-```
 java Main
-```
+What I used
 
----
+Core Java and OOP — classes, objects, encapsulation
+File Handling — saving expenses to a .txt file using BufferedReader and FileWriter
+Collections — ArrayList to store expenses, HashMap for category-wise summary
 
-## Concepts Used
+What I learned
+This was my first time properly using file handling in Java. Getting the data to save and reload correctly took more time than I expected. Also learned how HashMap makes category-wise reports much easier than I thought.
+Known issues / TODO
 
-* Object-Oriented Programming
-* File Handling
-* Collections Framework
-* Menu-driven program
+The delete feature works but isn't the cleanest — planning to fix it
+Want to add monthly filtering next
+Maybe a GUI version later using Java Swing, but that's for later
 
----
+About
+Saumya Pratik — B.Tech CSE (AIML)
 
-## Future Improvements
-
-* Add search functionality
-* Monthly expense tracking
-* GUI version using Java Swing
-* Convert into a web-based application
-
----
-
-## Author
-
-Saumya Pratik
-B.Tech CSE (AIML)
-
----
-
-## Conclusion
-
+Conclusion
 This project helped me understand how Java can be used to solve real-world problems. It also improved my understanding of OOP, file handling, and working with collections.
