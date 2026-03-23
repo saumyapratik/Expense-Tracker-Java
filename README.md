@@ -96,7 +96,6 @@ java Main
 * Search expenses by category
 * Monthly expense report
 * GUI-based interface (Java Swing/JavaFX)
-* Web-based version using Spring Boot
 
 ---
 
